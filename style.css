@@ -1,0 +1,173 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    background-color: #e9e9e9;
+    color: #878787;
+}
+
+.page {
+    width: 100%;
+}
+
+/* LAYOUT */
+.layout {
+    display: flex;
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+/* VASAK VEERG */
+.left-column {
+    width: 300px;
+    background-color: #263f66;
+    color: #ffffff;
+    padding: 40px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.profile-wrapper {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #111;
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sidebar h1 {
+    margin: 0 0 22px 0;
+    font-size: 28px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+/* Kontakt */
+.contact-box {
+    background-color: #edf4fb;
+    color: #162744;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* skills */
+.skills-section h2 {
+    margin-top: 50px;
+    margin-bottom: 4px;
+    font-size: 28px;
+    color: #f2f2f2;
+    line-height: 1.6;
+}
+
+.skills-section h3 {
+    margin-top: 16px;
+    font-size: 18px;
+    color: #f2f2f2;
+}
+
+.skills-section li {
+    font-size: 18px;
+}
+
+.footer-left {
+    margin-top: auto;
+    text-align: center;
+}
+
+.footer-left h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.socials a {
+    color: #93a9b7;
+    font-size: 22px;
+    margin: 0 8px;
+    text-decoration: none;
+}
+
+/* parem veerg */
+.right-column {
+    flex: 1;
+    background-color: #eeeeee;
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* pealkirjad */
+.about h2,
+.education h2,
+.experience h2,
+.courses h2 {
+    color: #162744;
+    font-size: 20px;
+    border-bottom: 2px solid #162744;
+    display: inline-block;
+    padding-bottom: 4px;
+    margin-bottom: 20px;
+}
+
+/* alampealkirjad */
+.timeline-item h3,
+.timeline-item h4,
+.row-item h3,
+.course-item h3,
+.date,
+strong {
+    color: #162744;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+/* sisu */
+.about p,
+.timeline-item li,
+.course-item p,
+.row-item p {
+    color: #878787;
+    font-size: 12px;
+}
+
+.row-item {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    margin-bottom: 15px;
+}
+
+.timeline-item {
+    margin-top: 22px;
+}
+
+.content {
+    flex: 1;
+}
+
+.footer-right {
+    margin-top: auto;
+    text-align: center;
+    font-size: 12px;
+    color: #878787;
+}
