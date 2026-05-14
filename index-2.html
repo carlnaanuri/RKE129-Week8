@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- FONT AWESOME IKOONID -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- PÕHI CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,7 +16,7 @@
 <div class="page">
     <div class="layout">
 
-        <!-- DESKTOP vasak tulp -->
+        <!-- VASAK SININE VEERG -->
         <aside class="left-column">
             <div class="profile-section">
                 <div class="profile-wrapper">
@@ -25,20 +26,32 @@
 
             <div class="sidebar">
                 <h1>John Doe</h1>
-                <div class="contact-box">Birth: 01.01.1900</div>
-                <div class="contact-box">Mobile: +700 007 0007</div>
-                <div class="contact-box">Mail: john.doe@email.com</div>
-                <div class="contact-box">Location: Tallinn</div>
+
+                <div class="contact-box">01.01.1900</div>
+                <div class="contact-box">+700 007 0007</div>
+                <div class="contact-box">john.doe@email.com</div>
+                <div class="contact-box">Tallinn</div>
 
                 <section class="skills-section">
                     <h2>Skills</h2>
+
                     <h3>Technical Skills</h3>
                     <ul>
-                        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Python</li><li>SQL</li><li>Figma</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>Figma</li>
                     </ul>
+
                     <h3>Soft Skills</h3>
                     <ul>
-                        <li>Communication</li><li>Teamwork</li><li>Creativity</li><li>Time Management</li><li>Problem Solving</li>
+                        <li>Communication</li>
+                        <li>Teamwork</li>
+                        <li>Creativity</li>
+                        <li>Time Management</li>
+                        <li>Problem Solving</li>
                     </ul>
                 </section>
             </div>
@@ -46,41 +59,34 @@
             <div class="footer-left">
                 <h2>Find me on</h2>
                 <div class="socials">
-                    <a href="#">f</a><a href="#">◎</a><a href="#">in</a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
             </div>
         </aside>
 
-        <!-- parem tulp -->
+        <!-- PAREM HELE VEERG -->
         <div class="right-column">
-
-            <!-- mobiili header -->
-            <header class="mobile-header">
-                <div class="profile-wrapper">
-                    <img src="images/dude.jpg" alt="Profiilipilt" class="profile-img">
-                </div>
-                <h1>John Doe</h1>
-                <div class="contacts">
-                    <div>Birth: 01.01.1900</div>
-                    <div>Mobile: +700 007 0007</div>
-                    <div>Mail: john.doe@email.com</div>
-                    <div>Location: Tallinn</div>
-                </div>
+            <header class="header-right">
+                <section class="about">
+                    <h2>About</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>
+                        Curabitur pretium tincidunt lacus, nec gravida orci aliquam non. Nullam varius turpis et commodo pharetra.
+                    </p>
+                </section>
             </header>
 
             <main class="content">
-                <section class="about"><h2>About</h2><p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-                <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <p>
-                    Curabitur pretium tincidunt lacus, nec gravida orci aliquam non. Nullam varius turpis et commodo pharetra.
-                </p></section>
-                <section class="education"><section class="education">
+                <section class="education">
                     <h2>Education</h2>
 
                     <div class="row-item">
@@ -144,6 +150,7 @@
                         </ul>
                     </article>
                 </section>
+
                 <section class="courses">
                     <h2>Courses</h2>
 
@@ -163,44 +170,13 @@
                         <p>Sed do eiusmod tempor incididunt</p>
                     </article>
                 </section>
-
-                <!-- Mobiili alumine -->
-                <section class="mobile-bottom">
-                    <section class="skills-section">
-                        <h2>Skills</h2>
-                        <h3>Technical Skills</h3>
-                        <ul>
-                            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Python</li><li>SQL</li><li>Figma</li>
-                        </ul>
-                        <h3>Soft Skills</h3>
-                        <ul>
-                            <li>Communication</li><li>Teamwork</li><li>Creativity</li><li>Time Management</li><li>Problem Solving</li>
-                        </ul>
-                    </section>
-
-                    <div class="contact-btn">Contact me</div>
-
-                    <div class="find-me"><h2>Find me on</h2></div>
-                    <div class="socials">
-                        <div class="socials">
-                            <a href="#" aria-label="Facebook">
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </a>
-                            <a href="#" aria-label="Instagram">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                            <a href="#" aria-label="LinkedIn">
-                                <i class="fa-brands fa-linkedin-in"></i>
-                            </a>
-                        </div>
-                        
-                    </div>
-                    <div class="year">© 2026</div>
-                </section>
             </main>
 
-            <footer class="footer-right">© 2026</footer>
+            <footer class="footer-right">
+                <p>© 2026</p>
+            </footer>
         </div>
+
     </div>
 </div>
 
